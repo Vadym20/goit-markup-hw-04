@@ -574,6 +574,13 @@ img {
 .contact-list .link:focus {
   color: var(--select-color);
 }
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-contacts {
+  margin-right: 70px;
+}
 
 .join-us-title {
   display: flex;
