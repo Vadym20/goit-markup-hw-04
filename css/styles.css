@@ -16,6 +16,7 @@
   --feauters-bgc: #f5f5f5;
   --background-project-list: #eeeeee;
   --background-team: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -139,6 +140,11 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
+}
+.contacts-icon {
+  display: inline-block;
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /*---------------------------HERO-------------------*/
@@ -446,6 +452,50 @@ img {
   fill: #ffffff;
 }
 
+.regular-clients {
+  padding: 94px 0;
+}
+
+.regular-clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
+}
+
+.regular-clients-list {
+  display: flex;
+  gap: 30px;
+}
+
+.regular-clients-link {
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.regular-clients-icon {
+  display: inline-flex;
+  fill: var(--icon-color);
+}
+.regular-clients-link:hover .regular-clients-icon,
+.regular-clients-link:focus .regular-clients-icon {
+  fill: var(--select-color);
+}
+.regular-clients-link:hover,
+.regular-clients-link:focus {
+  fill: var(--select-color);
+  border: 1px solid var(--select-color);
+}
+
 /*-----------------------FOOTER--------------------*/
 .footer {
   padding: 60px 0;
@@ -523,4 +573,39 @@ img {
 .contact-list .link:hover,
 .contact-list .link:focus {
   color: var(--select-color);
+}
+
+.join-us-title {
+  display: flex;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.join-us-list {
+  display: flex;
+  gap: 10px;
+}
+
+.join-us-link {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-us-icon {
+  fill: #ffffff;
+}
+
+.join-us-link:hover,
+.join-us-link:focus {
+  background-color: var(--select-color);
 }
