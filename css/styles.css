@@ -147,14 +147,17 @@ img {
 }
 
 /*---------------------------HERO-------------------*/
+
 .hero {
   max-width: 1600px;
-}
-.hero-content {
+  height: 600px;
   background: var(--secondary-bgc);
   padding: 200px 0;
+  margin-left: auto;
+  margin-right: auto;
 
   text-align: center;
+
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-st.jpeg);
   background-repeat: no-repeat;
