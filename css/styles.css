@@ -56,7 +56,6 @@ img {
 
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid red;
 }
 .flex {
   display: flex;
@@ -430,7 +429,7 @@ img {
   gap: 10px;
 }
 .team-soc-icon {
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 .team-soc-link {
   width: 44px;
@@ -445,7 +444,7 @@ img {
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-  background-color: #2196f3;
+  background-color: var(--select-color);
 }
 .team-soc-link:hover .team-soc-icon,
 .team-soc-link:focus .team-soc-icon {
@@ -473,7 +472,7 @@ img {
 
 .regular-clients-link {
   box-sizing: border-box;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--icon-color);
   border-radius: 4px;
   width: 170px;
   height: 92px;
@@ -615,4 +614,16 @@ img {
 .join-us-link:hover,
 .join-us-link:focus {
   background-color: var(--select-color);
+}
+
+.portfolio-icon {
+  display: flex;
+  text-decoration: none;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+  display: block;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
