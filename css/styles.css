@@ -135,6 +135,7 @@ img {
 .contacts-list-link {
   display: flex;
   padding: 32px 0;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -160,7 +161,7 @@ img {
 
   text-align: center;
 
-  background-image: linear-gradient (var(--color-gradient)), var(--color-gradient),
+  background-image: linear-gradient(var(--color-gradient), var(--color-gradient)),
     url(../images/hero-st.jpeg);
   background-repeat: no-repeat;
   background-position: center;
@@ -198,7 +199,6 @@ img {
   min-width: 200px;
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 .header-btn:hover,
 .header-btn:focus {
@@ -444,7 +444,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  outline: none;
 }
 
 .team-soc-link:hover,
@@ -481,6 +480,7 @@ img {
   border-radius: 4px;
   width: 170px;
   height: 92px;
+  outline: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -622,12 +622,12 @@ img {
 }
 
 .portfolio-icon {
-  display: flex;
+  display: block;
   text-decoration: none;
+  outline: transparent;
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-icon:hover {
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
